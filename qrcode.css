@@ -1,42 +1,43 @@
 body {
     background-color: #d5e1ef;
+    margin-top: 10%;   
 }
 
 .main {
+    max-width: 1440px;
     width: 270px;
     height: 420px;
     background-color: #ffffff;
     margin: auto;
-    border-radius: 20px;
-    margin-top: 130px;
+    border-radius: 20px;    
 }
 
 .image-qrcode {
-    width: 18%;
-    position: absolute;
-    height: 35%;
-    top: 22%;
-    left: 41%;
+    max-width: 1440px;
+    text-align: center;
     border-radius: 10px;
+    margin: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;  
 }
 
-label {
-    font-family:  'Manrope', sans-serif;
+h1 {
+    font-family:'Manrope', sans-serif;
     color: #263044;
     font-weight: bold;
     font-size: 17px;
-    position: absolute;
-    top:61%;
-    left:580px;
+    text-align: center;
+    margin: auto;
+    padding-top: 15%;
 }
 
 p {
     font-family:  'Manrope', sans-serif;
     color: #b6b8c1;
-    position: absolute;
-    top:71%;
-    left:580px;
     text-align: center;
     font-size: 13px;
     font-weight: bold;
+    margin: auto;
+    padding-top: 15%;
 }
